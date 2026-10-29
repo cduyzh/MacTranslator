@@ -1,0 +1,17 @@
+{
+  "version": "1.0.1",
+  "build": 2,
+  "release_date": "2026-10-29",
+  "title": "只保留 Google 与 DeepSeek 翻译",
+  "summary": "移除 MyMemory 翻译引擎，菜单栏、主面板、快捷切换和接口均只提供 Google 与 DeepSeek。",
+  "highlights": [
+    "移除 MyMemory 翻译引擎，菜单栏、主面板、快捷切换和接口均只提供 Google 与 DeepSeek。"
+  ],
+  "features": [
+    "Google 免费 RPC 与 DeepSeek 双引擎快速切换"
+  ],
+  "improvements": [],
+  "bug_fixes": [],
+  "download_url": "https://github.com/cduyzh/iTrans/releases",
+  "min_macos_version": "14.0"
+}

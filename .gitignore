@@ -1,0 +1,78 @@
+# macOS
+.DS_Store
+
+# Build output & release artifacts
+dist/
+build/
+out/
+.build.noindex/
+*.app
+*.dmg
+*.zip
+
+# Swift / SPM / Xcode
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+
+# Python helper tooling
+__pycache__/
+*.pyc
+.venv/
+
+# Node (local website tooling)
+node_modules/
+*.log
+*.tsbuildinfo
+
+# Secrets & environment — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+secrets/
+*credentials*
+*-api-key*
+
+# AI assistant local config
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+.claude/
+.codex/
+.gemini/
+.trae/
+.zcode/
+
+# IDE & editor
+.idea/
+.vscode/
+.history/
+
+# Local-only promo site & private notes (never published with the repo)
+website/
+private/
+local/
+showcase/
+
+# Private working documents
+docs/**
+!docs/
+!docs/**/
+!docs/**/[Rr][Ee][Aa][Dd][Mm][Ee]*.md
+design-demos/
+direction-approved.md
+*-spec.md
+*-directions.md
+
+# Keep README documents; ignore other Markdown files
+*.md
+!README*.md
+!**/README*.md
+![Rr][Ee][Aa][Dd][Mm][Ee]*.md
+!**/[Rr][Ee][Aa][Dd][Mm][Ee]*.md
+
